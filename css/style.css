@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+body{
+	overflow-x: hidden;
+	width: 100%;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Montserrat';
+}
+p{
+	font-family: 'Lato';
+}
+#jumbotron{
+	background: url('../images/bg-head.jpg') no-repeat top;
+	background-size: cover;
+	color: :#fff;
+}
+#jumbotron h1{
+	margin-top: 15%;
+	color:#fff;
+	font-size: 7em;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+ 
+#jumbotron h4{
+	font-family: 'Lato';
+	color: #fff;
+	font-size: 1.8em;
+	letter-spacing: 2px;
+}
+#overview{
+	margin-top: 15%;
+	background: #ffcc00;
+	color: #000;
+}
+#overview h2{
+	font-weight: bold;
+}
+
+.btn-custom{
+
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color:#fff;
+	font-family: 'Montserrat';
+	padding: 10px;
+}
+
+#list-beasiswa{
+	padding: 4%;
+	background:#eaeaea;
+}
+.padding{
+	text-align: justify;
+	padding: 20px;
+}
+.card{
+	background-color:#fff;
+	box-shadow: 1px 1px 2px 3px #ccc;
+	padding: 20px;
+}
+
+#crowdscholarship{
+	background: url('../images/crow.jpg') center no-repeat;
+	background-size:cover;
+	padding: 70px;
+}
+#crowdscholarship h1{
+	color:#fff;
+}
+.info{
+	display: inline-block;
+	width: 30%;
+}
+.info h4{
+	font-weight: bold;
+}
+
+#stories{
+	padding: 40px;
+	text-align: justify;
+}
+#stories a{
+	font-family: 'Montserrat';
+	font-size: 1.2em;
+}
+
+#profile-header{
+	background:url(../images/yellow-pattern.jpg) center no-repeat;
+	background-size: cover;
+	padding: 30px;
+}
+
+#profile-overview{
+	background: #fff;
+}
+#dashboard-overview{
+	padding: 4%;
+	background:#eaeaea;
+}
+#dashboard-overview h1{
+	color: #ffcc00;
+}
+.nav-tabs { border-bottom: 2px solid #DDD; }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+    .nav-tabs > li > a { border: none; color: #666; }
+        .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #000 !important; background: transparent; }
+        .nav-tabs > li > a::after { content: ""; background: #ffcc00; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+
+
+#details-header{
+	background:url(../images/fasilkom.jpg) center no-repeat;
+	background-size: cover;
+	padding: 30px;
+}
+#details-header h1{
+	margin-top: 10%;
+	color:#fff;
+}
+a{
+	font-family: 'Montserrat';
+	font-size: 18px;
+}
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
